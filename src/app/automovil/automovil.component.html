@@ -1,12 +1,28 @@
-<link rel="stylesheet" href="automovil.component.css">
+<style>
+    #Titulo,
+    #Subtitulo {
+        font-size: 2rem;
+        text-align: center;
+    }
 
+    #Informacion {
+        font-size: 14pt;
+        text-align: center;
+    }
 
+    #Imagen {
+        padding-left: 300px;
+    }
 
-<p>automovil works!</p>
+    #PieDePagina {
+        font-family: fantasy;
+        text-align: center;
+    }
+</style>
 <div id="Titulo">
     <h1>Bugatti Veyron</h1>
 </div>
-<div id="ulImagen">
+<div id="Imagen">
     <img src="{{ulImagen}}" alt="">
 </div>
 <br>
@@ -21,4 +37,11 @@
     <p>Version: {{version}}</p>
     <p>Pais de origen: {{paisDeOrigen}}</p>
     <p>Descripcion: {{descripcion}}</p>
+</div>
+<br>
+<div id="PieDePagina">
+    <footer>
+        <p>Jose Guerrero</p>
+        <p>Auxiliar en Desarrollo Web</p>
+    </footer>
 </div>
